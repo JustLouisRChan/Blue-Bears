@@ -1,0 +1,50 @@
+/* ----------------------------/Blog-Section/----------------------- */
+
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3,.5fr);
+
+    gap: 1em;
+
+    margin: 0;
+    padding: 5em 0;
+}
+
+.blog-section div{
+    min-width: 6em;
+    min-height: 6em;
+
+    margin: .8em;
+    padding: .5em;
+    border: 1px solid black;
+}
+
+.blog-section h5{
+    color: #9353ac;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.blog-section h3{
+    margin: .3em 0;
+    font-size: 24px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    color: #1a033d;
+}
+
+.blog-section p{
+    color: #7f7f7f;
+    font-size: 16px;
+}
+
+.blog-section span {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-section img{
+    max-width: 30em;
+    max-height: 30em;
+}
