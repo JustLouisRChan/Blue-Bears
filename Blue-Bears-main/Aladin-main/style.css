@@ -1,0 +1,237 @@
+/* -------------------------/Intro-Section/------------------------------ */
+
+.intro-section { 
+    height: 120vh;
+    max-width: 100%;
+
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-image: url(Assets/Magic-Lamp.png);
+    background-repeat: no-repeat;
+}
+
+
+.intro-section h1{
+	text-align: center;
+	color: #f7e3ff;
+
+	position: relative;
+	font-size: 64px;
+
+	margin-bottom: 2em;
+}
+
+.intro-section h2{
+	text-align: center;
+	color: #f2d2ff;
+
+	position: relative;
+	font-size: 48px;
+
+	margin-bottom: 1em;
+}
+
+.magic-button{
+	position: relative;
+
+    width: 6.6em;
+    min-height: 1em;
+	border-radius: 12px;
+    
+	border: none;
+	font-weight: 500;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 24px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #33007f 50%, #f3d5ff 50%);
+    -webkit-transition: background-position .2s;
+    -moz-transition: background-position .2s;
+    transition: background-position .2s ease-in-out;
+
+}
+
+.magic-button:hover {
+    background-position: 0 -100%;
+    color: #33007f;
+}
+
+.magic-button:hover span {
+    display: none
+  }
+  
+.magic-button:hover:before {
+    content: "MAGIC!  >"
+  }
+
+/* -------------------------/Group-Section/------------------------------ */
+
+.group-section{
+    display: flex;
+    background-color: #1a033d;
+
+    gap: 3em;
+}
+
+.group-section p{
+    color: #9e87a7;
+}
+
+.group-section div{
+    padding: .5em;
+    width: 276px;
+    background-color: #302049;
+    border-radius: 12px;
+}
+
+.group-section div:hover{
+    background-color: #3d3250;
+}
+
+
+/* -------------------------/Explore-Section/------------------------------ */
+.explore-section{
+    display: flex;
+    align-items: center;
+}
+
+.explore-section *{
+    margin-bottom: .7em;
+}
+
+.explore-section h2{
+    font-size: 48px;
+
+    color: #302049;
+    margin: 0 4em .3em 0;
+}
+
+.explore-section h1{
+    font-size: 32px;
+    color: #df8dff;
+}
+
+.explore-section p{
+    font-size: 20px;
+    color: #1a033d;
+    font-weight: 600;
+}
+
+.explore-section div div{
+    display: flex;
+    gap: 4em;
+}
+
+.explore-section span{
+    border-left: 2px solid #1a033d;
+    padding: 0 1em;
+}
+
+/* -------------------------/Direct-Section/------------------------------ */
+
+.direct-section h2{
+    color: #302049;
+}
+
+.direct-section{
+    background-color: #fbf8fc;
+    padding-left: 14em;
+}
+
+.direct-section span{
+    margin-top: 1.5em;
+    display: flex;
+    gap: 4em;
+}
+
+.direct-section div{
+    padding: .3em .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: #949494;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 1px 1px 40px 0px inset;
+
+    transition: 0.2s ease-out
+}
+
+.direct-section div:hover{
+    cursor: pointer;
+}
+
+
+.direct-section h5{
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.direct-section h5:hover{
+    text-decoration: none;
+}
+
+
+.direct-section #factory-tours{
+    background-image: url(Assets/Factory.jpg);
+
+}
+
+.direct-section #factory-samples{
+    background-image: url(Assets/Samples.jpg);
+}
+
+.direct-section #connect-manufactures{
+    background-image: url(Assets/Connect-Manufactures.png);
+}
+
+.direct-section div:hover{
+    transform: scale(1.05);
+}
+
+/* -------------------------/Footer-Section/------------------------------ */
+.before-footer-section{
+    background-image: url(Assets/Footer.png);
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.before-footer-section div *{
+    color: #1a033d;
+    text-align: center;
+}
+
+.before-footer-section h3{
+    font-size: 32px;
+    text-align: right;
+}
+
+.before-footer-section h2{
+    font-size: 128px;
+    font-weight: 600;
+
+    color: #290637;
+}
+
+
